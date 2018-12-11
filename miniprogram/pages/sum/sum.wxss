@@ -1,0 +1,2 @@
+/* miniprogram/pages/sum/sum.wxss */
+@import "../../style/guide.wxss";

@@ -1,0 +1,20 @@
+<!--miniprogram/pages/sum/sum.wxml-->
+<view class="container">
+
+  <view class="list">
+    <view class="list-item" bindtap="testFunction">
+      <text>测试云函数</text>
+    </view>
+    <view class="list-item">
+      <text class="request-text">期望输出：{"sum":3}</text>
+    </view>
+    <view class="list-item" wx:if="{{result}}">
+      <text class="request-text">调用结果：{{result}}</text>
+    </view>
+    <view class="list-item">
+      <text class="request-text">调试好使</text>
+      <button class='wepay' bindtap='goBaidu'>跳转图虫</button>
+    </view>
+  </view>
+</view>
+
